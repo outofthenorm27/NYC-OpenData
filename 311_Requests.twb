@@ -1,0 +1,3068 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='311_Service_Requests_2020' inline='true' name='federated.1e308qs1lgdnf313h96bk1hoibpx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='311_Service_Requests_2020' name='textscan.10utddt1x2gkq3123mxxj1ox0mfw'>
+            <connection class='textscan' directory='C:/Users/rnorm/Outofthenorm27' filename='311_Service_Requests_2020.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10utddt1x2gkq3123mxxj1ox0mfw' name='311_Service_Requests_from_2010_to_Present.csv' table='[311_Service_Requests_from_2010_to_Present#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Unique Key' ordinal='0' />
+            <column datatype='datetime' name='Created Date' ordinal='1' />
+            <column datatype='datetime' name='Closed Date' ordinal='2' />
+            <column datatype='string' name='Agency' ordinal='3' />
+            <column datatype='string' name='Agency Name' ordinal='4' />
+            <column datatype='string' name='Complaint Type' ordinal='5' />
+            <column datatype='string' name='Descriptor' ordinal='6' />
+            <column datatype='string' name='Location Type' ordinal='7' />
+            <column datatype='integer' name='Incident Zip' ordinal='8' />
+            <column datatype='string' name='Incident Address' ordinal='9' />
+            <column datatype='string' name='Street Name' ordinal='10' />
+            <column datatype='string' name='Cross Street 1' ordinal='11' />
+            <column datatype='string' name='Cross Street 2' ordinal='12' />
+            <column datatype='string' name='Intersection Street 1' ordinal='13' />
+            <column datatype='string' name='Intersection Street 2' ordinal='14' />
+            <column datatype='string' name='Address Type' ordinal='15' />
+            <column datatype='string' name='City' ordinal='16' />
+            <column datatype='string' name='Landmark' ordinal='17' />
+            <column datatype='string' name='Facility Type' ordinal='18' />
+            <column datatype='string' name='Status' ordinal='19' />
+            <column datatype='datetime' name='Due Date' ordinal='20' />
+            <column datatype='string' name='Resolution Description' ordinal='21' />
+            <column datatype='datetime' name='Resolution Action Updated Date' ordinal='22' />
+            <column datatype='string' name='Community Board' ordinal='23' />
+            <column datatype='integer' name='BBL' ordinal='24' />
+            <column datatype='string' name='Borough' ordinal='25' />
+            <column datatype='integer' name='X Coordinate (State Plane)' ordinal='26' />
+            <column datatype='integer' name='Y Coordinate (State Plane)' ordinal='27' />
+            <column datatype='string' name='Open Data Channel Type' ordinal='28' />
+            <column datatype='string' name='Park Facility Name' ordinal='29' />
+            <column datatype='string' name='Park Borough' ordinal='30' />
+            <column datatype='string' name='Vehicle Type' ordinal='31' />
+            <column datatype='string' name='Taxi Company Borough' ordinal='32' />
+            <column datatype='string' name='Taxi Pick Up Location' ordinal='33' />
+            <column datatype='string' name='Bridge Highway Name' ordinal='34' />
+            <column datatype='string' name='Bridge Highway Direction' ordinal='35' />
+            <column datatype='string' name='Road Ramp' ordinal='36' />
+            <column datatype='string' name='Bridge Highway Segment' ordinal='37' />
+            <column datatype='real' name='Latitude' ordinal='38' />
+            <column datatype='real' name='Longitude' ordinal='39' />
+            <column datatype='string' name='Location' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.10utddt1x2gkq3123mxxj1ox0mfw' name='311_Service_Requests_from_2010_to_Present.csv' table='[311_Service_Requests_from_2010_to_Present#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Unique Key' ordinal='0' />
+            <column datatype='datetime' name='Created Date' ordinal='1' />
+            <column datatype='datetime' name='Closed Date' ordinal='2' />
+            <column datatype='string' name='Agency' ordinal='3' />
+            <column datatype='string' name='Agency Name' ordinal='4' />
+            <column datatype='string' name='Complaint Type' ordinal='5' />
+            <column datatype='string' name='Descriptor' ordinal='6' />
+            <column datatype='string' name='Location Type' ordinal='7' />
+            <column datatype='integer' name='Incident Zip' ordinal='8' />
+            <column datatype='string' name='Incident Address' ordinal='9' />
+            <column datatype='string' name='Street Name' ordinal='10' />
+            <column datatype='string' name='Cross Street 1' ordinal='11' />
+            <column datatype='string' name='Cross Street 2' ordinal='12' />
+            <column datatype='string' name='Intersection Street 1' ordinal='13' />
+            <column datatype='string' name='Intersection Street 2' ordinal='14' />
+            <column datatype='string' name='Address Type' ordinal='15' />
+            <column datatype='string' name='City' ordinal='16' />
+            <column datatype='string' name='Landmark' ordinal='17' />
+            <column datatype='string' name='Facility Type' ordinal='18' />
+            <column datatype='string' name='Status' ordinal='19' />
+            <column datatype='datetime' name='Due Date' ordinal='20' />
+            <column datatype='string' name='Resolution Description' ordinal='21' />
+            <column datatype='datetime' name='Resolution Action Updated Date' ordinal='22' />
+            <column datatype='string' name='Community Board' ordinal='23' />
+            <column datatype='integer' name='BBL' ordinal='24' />
+            <column datatype='string' name='Borough' ordinal='25' />
+            <column datatype='integer' name='X Coordinate (State Plane)' ordinal='26' />
+            <column datatype='integer' name='Y Coordinate (State Plane)' ordinal='27' />
+            <column datatype='string' name='Open Data Channel Type' ordinal='28' />
+            <column datatype='string' name='Park Facility Name' ordinal='29' />
+            <column datatype='string' name='Park Borough' ordinal='30' />
+            <column datatype='string' name='Vehicle Type' ordinal='31' />
+            <column datatype='string' name='Taxi Company Borough' ordinal='32' />
+            <column datatype='string' name='Taxi Pick Up Location' ordinal='33' />
+            <column datatype='string' name='Bridge Highway Name' ordinal='34' />
+            <column datatype='string' name='Bridge Highway Direction' ordinal='35' />
+            <column datatype='string' name='Road Ramp' ordinal='36' />
+            <column datatype='string' name='Bridge Highway Segment' ordinal='37' />
+            <column datatype='real' name='Latitude' ordinal='38' />
+            <column datatype='real' name='Longitude' ordinal='39' />
+            <column datatype='string' name='Location' ordinal='40' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unique Key</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unique Key]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Unique Key</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Created Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Created Date]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Created Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closed Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Closed Date]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Closed Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Agency</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency Name]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Agency Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complaint Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Complaint Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Complaint Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Descriptor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Descriptor]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Descriptor</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Location Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Incident Zip]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Incident Zip</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident Address]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Incident Address</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Street Name]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Street Name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cross Street 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cross Street 1]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Cross Street 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cross Street 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Cross Street 2]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Cross Street 2</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intersection Street 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Intersection Street 1]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Intersection Street 1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intersection Street 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Intersection Street 2]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Intersection Street 2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Address Type</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Landmark</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Landmark]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Landmark</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facility Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Facility Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Facility Type</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Due Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Due Date]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Due Date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resolution Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Resolution Description]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Resolution Description</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resolution Action Updated Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Resolution Action Updated Date]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Resolution Action Updated Date</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Community Board</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Community Board]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Community Board</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BBL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BBL]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>BBL</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Borough]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Borough</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>X Coordinate (State Plane)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[X Coordinate (State Plane)]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>X Coordinate (State Plane)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Y Coordinate (State Plane)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Y Coordinate (State Plane)]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Y Coordinate (State Plane)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Open Data Channel Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Open Data Channel Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Open Data Channel Type</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Park Facility Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Park Facility Name]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Park Facility Name</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Park Borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Park Borough]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Park Borough</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Vehicle Type]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Vehicle Type</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Taxi Company Borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Taxi Company Borough]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Taxi Company Borough</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Taxi Pick Up Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Taxi Pick Up Location]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Taxi Pick Up Location</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bridge Highway Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bridge Highway Name]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Bridge Highway Name</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bridge Highway Direction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bridge Highway Direction]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Bridge Highway Direction</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road Ramp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Road Ramp]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Road Ramp</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bridge Highway Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bridge Highway Segment]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Bridge Highway Segment</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[311_Service_Requests_from_2010_to_Present.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Borough1' datatype='string' name='[Borough]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Complaint Type1' datatype='string' name='[Complaint Type]' role='dimension' type='nominal' />
+      <column datatype='datetime' name='[Created Date]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Incident Zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Unique Key]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='table' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+      <column-instance column='[Complaint Type]' derivation='None' name='[none:Complaint Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Created Date]' derivation='Year' name='[yr:Created Date:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Complaint Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;.../.\\.../.\\.../.\\.../.\\......&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;/./validate_form.php&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Abandoned Bike&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Alzheimer&apos;s Care&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bottled Water&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Construction&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Derelict Bicycle&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DOF Property - City Rebate&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Elder Abuse&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ferry Inquiry&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;General&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Highway Sign - Missing&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Illegal Posting&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Litter Basket Request&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Misc. Comments&apos; and (select...&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Misc. Comments}}t2v95&apos;/&amp;quo...&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MOLD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;nslookup -q=cname nneyfcxgy...&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Plant&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Registration and Transfers&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SG-99&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Street Condition&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Traffic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vaccine Mandate Non-Compliance&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;() { :;}; /bin/sleep 0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;\%c0\%ae/\%c0\%ae/\%c0\%ae/WEB-IN...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Advocate-Prop Class Incorrect&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Benefit Card Replacement&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;c:\\windows\\win.ini Misc. Co...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dead Animal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dispatched Taxi Compliment&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DRIE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Eviction&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Food Poisoning&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;hcvn1{{687*375}}gji51&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;http://g7orz5h9iu2sh6z332rj...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LEAD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Misc. Comments;declare @q v...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Misc. Comments&apos;+eval(compil...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Misc. Comments|ping -n 21 1...&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Noise&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Overflowing Litter Baskets&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Overgrown Tree/Branches&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;qfix4${695*589}lixaf&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sanitation Worker or Vehicle Complaint&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sprinkler - Mechanical&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tanning&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Unsanitary Condition&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;X-Ray Machine/Equipment&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;{!xmlparser v=&apos;&amp;lt;!DOCTYPE...&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;`sleep 11`&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Advocate-UBT&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bike/Roller/Skate Chronic&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;City Vehicle Placard Complaint&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DEP Highway Condition&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DOF Parking - Payment Issue&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DSNY Internal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Face Covering Violation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Forms&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HEATING&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Illegal Animal Sold&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LinkNYC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Misc. Comments&apos; and 6049=60...&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Misc. Comments&apos;|ping -c 21 ...&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Missed Collection&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Noise - Park&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Non-Residential Heat&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Parent Leadership&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rangehood&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Seasonal Collection&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Stalled Sites&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Taxi Licensee Complaint&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Urinating in Public&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Noise - House of Worship&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;...\\.\\...\\.\\...\\.\\...\\.\\......&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;../../../WEB-INF/web.xml;x=&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;&amp;lt;vlv xmlns=&amp;quot;http://...&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Advocate - Lien&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Animal-Abuse&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Building Condition&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Consumer Complaint&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DHS Advantage - Third Party&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DOF Property - Reduction Issue&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Electronics Waste&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;file:///etc/passwd&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;General Question&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Home Repair&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Indoor Sewage&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mass Gathering Complaint&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Misc. Comments&apos;.sleep(20).&apos;&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Misc. Comments&amp;gt;  BCC:bl0...&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;New Tree Request&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Portable Toilet&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Research Questions&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Snow&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Street Sign - Missing&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Transfer Station Complaint&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;WATER LEAK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;.../Misc. Comments&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;/etc/passwd&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Abandoned Vehicle&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Animal Abuse&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bridge Condition&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CONSTRUCTION&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Derelict Vehicle&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DOF Property - Owner Issue&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Electric&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ferry Permit&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GENERAL&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Home Care Provider Complaint&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Illegal Tree Damage&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lost Property&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Misc. Comments&apos; waitfor del...&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Misc. Comments&amp;amp;echo xjd...&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mosquitoes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Obstruction&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PLUMBING&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Request Changes - A.S.P.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sidewalk Condition&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Street Light Condition&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Traffic Signal Condition&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vending&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;.../....///.../....///.../....&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;@(9313*3464)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;$(sleep 11)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AGENCY&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Blocked Driveway&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Collection Truck Noise&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DEP Sidewalk Condition&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DOF Parking - Request Copy&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DSNY Spillage&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FATF&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Found Property&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Highway Condition&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Illegal Dumping&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Literature Request&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Misc. Comments&apos; and 7702=77...&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Misc. Comments);declare @q ...&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Missed Collection (All Materials)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;NonCompliance with Phased Reopening&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Parking Card&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Real Time Enforcement&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Select Message Type...&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Standing Water&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Taxi Report&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Utility Program&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;./validate_form.php&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;\%{(\#dm=@ognl.OgnlContext@DE...&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Advocate-Foreclosure&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;bcd9&amp;lt;!--esi--&amp;gt;1ggp&amp;lt...&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bus Stop Shelter Placement&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Day Care&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Disorderly Youth&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DOR Literature Request&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Encampment&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Foam Ban Enforcement&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hazardous Materials&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Housing Options&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Investigations and Discipline (IAD)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Misc. Comments&apos;+(select loa...&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Misc. Comments|nslookup -q=...&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Misc. Comments88909845&apos; or ...&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Outside Building&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Public Payphone Complaint&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Safety&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Special Operations&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sweeping/Missed&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Unsanitary Animal Facility&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Window Guard&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;() { :;}; /bin/sleep 11&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;\%c0\%ae/\%c0\%ae/WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;266dyrgvhg1egsyp2oq57axbm2s...&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Advocate-Prop Refunds/Credits&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bereavement Support Group&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Calorie Labeling&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Dead Tree&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DOF Literature Request&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Drinking&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Executive Inspections&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;For Hire Vehicle Complaint&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Health&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;idexf3mrb7)(!(objectClass=*)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lead&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Misc. Comments../../../../....&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Misc. Comments&apos;+sleep(20.to...&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Misc. Commentseowljujfh8&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Overflowing Recycling Baskets&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PAINT - PLASTER&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Quality of Life&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Scaffold Safety&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Squeegee&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tattooing&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;UNSANITARY CONDITION&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;yw97y0gi2s&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;../WEB-INF/web.xml;x=&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;\%2fetc\%2fpasswd&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Advocate-Co-opCondo Abatement&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Asbestos/Garbage Nuisance&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Building/Use&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Curb Condition&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dirty Conditions&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DOF Property - Update Account&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Emergency Response Team (ERT)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fire Alarm - Replacement&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Harboring Bees/Wasps&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Homeless Street Condition&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Interior Demo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Misc. Comments&apos;&amp;quot;`0&amp;amp...&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Misc. Comments\%}dt2pq&apos;/&amp;quo...&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Misc. Comments52038737&apos; or ...&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Noise - Street/Sidewalk&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Other Enforcement&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Public Assembly&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Root/Sewer/Sidewalk Condition&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Special Enforcement&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sustainability Enforcement&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Unleashed Dog&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Water System&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;.../...//.../...//.../...//...&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;*)(!(objectClass=*)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;${3804*3137}&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AHV Inspection Unit&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Boilers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Comments&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DEP Street Condition&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DOF Parking - Request Status&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dumpster Complaint&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FCST&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;g0oii1s4s5)(objectClass=*&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Highway Sign - Damaged&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Illegal Fireworks&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Litter Basket / Request&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Misc. Comments&apos; and &apos;1618&apos;=...&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Misc. Comments]]&amp;gt;&amp;gt;&amp;lt;&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mobile Food Vendor&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NONCONST&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Peeling Paint&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Recycling Basket Complaint&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Senior Center Complaint&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Standpipe - Mechanical&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Taxpayer Advocate Inquiry&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;VACANT APARTMENT&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;../../../../../../../../../...&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;../../WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;&amp;quot;--&amp;gt;&apos;--&amp;gt;`--&amp;gt;&amp;...&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Advocate - Other&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;APPLIANCE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Building Drinking Water Tank&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cooling Tower&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DHS Advantage -Landlord/Broker&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DOF Property - Request Copy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Electronics Waste Appointment&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fire Alarm - Modification&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Graffiti&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Homebound Evacuation 4&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Industrial Waste&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Meals Home Delivery Required&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Misc. Comments&apos;(select*from...&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Misc. Comments&amp;quot;&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;No Child Left Behind&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Posting Advertisement&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Residential Disposal Complaint&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Snow or Ice&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Street Sweeping Complaint&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Transportation Provider Complaint&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Water Leak&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;../../../../WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;../../WEB-INF/web.xml;x=&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;\%2e\%2e\%2f\%2e\%2e\%2f\%2e\%2e\%2f...&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Advocate - RPIE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Appliance&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Building Marshal&apos;s Office&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;COVID-19 Non-essential Construction&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DHS Income Savings Requirement&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DOF Property - RPIE Issue&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ELEVATOR&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Fire Alarm - New System&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Green Taxi Complaint&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Homeless Encampment&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Injured Wildlife&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Misc. Comments  BCC:a5glxzf...&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Misc. Comments&apos;);declare @q...&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Misc. Comments&amp;quot;|echo 2...&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Oil or Gas Spill&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Private or Charter School Reopening&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Retailer Complaint&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Snow Removal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;STRUCTURAL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Trapping Pigeon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Water Maintenance&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;..\\..\\..\\..\\..\\..\\..\\..\\..\\...&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;\%{4761*8506}&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Advocate-Commercial Exemptions&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ATF&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bus Stop Shelter Complaint&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Damaged Tree&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Discipline and Suspension&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DOOR/WINDOW&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Employee Behavior&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FLOORING/STAIRS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hazardous Material&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Housing - Low Income Senior&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Internal Code&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Misc. Comments&apos;+(function()...&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Misc. Comments|echo 3p7wexz...&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Misc. Comments69075347&apos; or ...&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Outdoor Dining&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Public Assembly - Temporary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SAFETY&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Special Natural Area District (SNAD)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sweeping/Inadequate&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Unlicensed Dog&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Weatherization&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;() { _; } &amp;gt;_&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;\%c0\%ae/\%c0\%ae/\%c0\%ae/\%c0\%ae...&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Advocate-Personal Exemptions&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Beach/Pool/Sauna Complaint&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;c:\\windows\\win.ini&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DCA / DOH New License Application Request&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Dispatched Taxi Complaint&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DPR Internal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;eval(compile(&apos;for x in rang...&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Food Establishment&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hazmat Storage/Use&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HPD Literature Request&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;kawn&apos;&apos;lcgv&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Misc. Comments,(select*from...&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Misc. Comments&apos;+(select*fro...&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Misc. Comments|ping -c 21 1...&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;OUTSIDE BUILDING&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Public Toilet&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sanitation Condition&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Special Projects Inspection Team (SPIT)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sweeping/Missed-Inadequate&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Unsanitary Animal Pvt Property&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wood Pile Remaining&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;\\windows\\win.ini&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Adopt-A-Basket&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Animal Facility - No Permit&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Broken Muni Meter&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Construction Lead Dust&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Derelict Vehicles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DOF Property - Payment Issue&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ELECTRIC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FHV Licensee Complaint&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GENERAL CONSTRUCTION&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Home Delivered Meal - Missed Delivery&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Incorrect Data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lot Condition&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Misc. Comments&apos;,0)waitfor d...&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Misc. Comments&amp;amp;nslookup...&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MSOTHER&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Noise - Helicopter&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;OEM Disabled Vehicle&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Plumbing&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Request Large Bulky Item Collection&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Single Occupancy Bathroom&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Street Sign - Damaged&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Traffic/Illegal Parking&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Violation of Park Rules&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Noise - Residential&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;..././..././..././..././......&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;*)(objectClass=*&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;a&apos;a\\&apos;b&amp;quot;c&amp;gt;?&amp;gt;\%}}\%\%...&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Air Quality&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Borough Office&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Commercial Disposal Complaint&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dept of Investigations&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DOF Parking - Tax Exemption&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;E-Scooter&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ferry Complaint&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gas Station Discharge Lines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Highway Sign - Dangling&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Illegal Parking&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Litter Basket Complaint&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Misc. Comments&apos; and &apos;7835&apos;=...&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Misc. Comments{${sleep(20)}}&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mold&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NORC Complaint&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pet Shop&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Recycling Enforcement&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sewer&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Storm&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Teaching/Learning/Instruction&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Vacant Lot&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;(select extractvalue(xmltyp...&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;\%c0\%ae/WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Advocate-Property Value&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BEST/Site Safety&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Case Management Agency Complaint&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dead/Dying Tree&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;DOF Parking - Address Update&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Drinking Water&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Facade Insp Safety Pgm&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;For Hire Vehicle Report&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HEAP Assistance&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Illegal Animal - Sold/Kept&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Legal Services Provider Complaint&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Misc. Comments..\\..\\..\\..\\....&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Misc. Comments&apos;||(select ex...&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Misc. Commentso0w3r\%&amp;gt;xb6...&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Noise - Commercial&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Noise Survey&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PAINT/PLASTER&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Question&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;School Maintenance&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SRDE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Taxi Complaint&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Unsanitary Pigeon Condition&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ZSYSTEST&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;../../../WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;../WEB-INF/web.xml&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;\%2e\%2e\%5c\%2e\%2e\%5c\%2e\%2e\%5c...&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Advocate-Business Tax&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Asbestos&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Building Marshals office&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cranes and Derricks&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dirty Condition&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DOF Property - State Rebate&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Elevator&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fire Alarm - Reinspection&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Green Taxi Report&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Homeless Person Assistance&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Institution Disposal Complaint&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Misc. Comments&apos;)waitfor del...&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Misc. Comments&amp;quot;|ping -...&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Misc. Comments47876391&apos; or ...&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Open Flame Permit&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Private School Vaccine Mandate Non-Compliance&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Rodent&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SNW&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Summer Camp&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tunnel Condition&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Water Quality&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;...\\./...\\./...\\./...\\./......&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;&amp;lt;odb xmlns:xi=&amp;quot;http...&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Advocate - Levy&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Animal in a Park&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Broken Parking Meter&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Construction Safety Enforcement&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DHS Advantage - Tenant&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DOF Property - Property Value&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Electrical&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;file:///c:/windows/win.ini&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;General Construction/Plumbing&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Home Delivered Meal Complaint&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Indoor Air Quality&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Maintenance or Facility&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Misc. Comments&apos;;declare @q ...&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Misc. Comments&amp;amp;ping -n ...&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Municipal Parking Facility&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;OEM Literature Request&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Poison Ivy&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Request Xmas Tree Collection&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Smoking&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Street Sign - Dangling&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Trans Fat&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Water Conservation&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Noise - Vehicle&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;(select load_file(&apos;\\\\\\\\615h...&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;\%E5\%98\%8A\%E5\%98\%8DX-Injecti...&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1430*4963&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Advocate-SCRIE/DRIE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bike Rack Condition&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Change Collection Schedule&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DEP Bridge Condition&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DOF Parking - DMV Clearance&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Drug Activity&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Facades&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Forensic Engineering&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HEAT/HOT WATER&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Illegal Animal Kept as Pet&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lifeguard&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Misc. Comments&apos;&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Misc. Comments&apos;|echo y9v6fc...&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Miscellaneous Categories&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Non-Emergency Police Matter&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Panhandling&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Radioactive Material&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SCRIE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SRGOVG&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Taxi Compliment&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Uprooted Stump&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ZTESTINT&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[yr:Created Date:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2013</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2010</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2022</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>2015</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2011</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2012</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='311_Service_Requests_from_2010_to_Present.csv' id='311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F'>
+            <properties context=''>
+              <relation connection='textscan.10utddt1x2gkq3123mxxj1ox0mfw' name='311_Service_Requests_from_2010_to_Present.csv' table='[311_Service_Requests_from_2010_to_Present#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Unique Key' ordinal='0' />
+                  <column datatype='datetime' name='Created Date' ordinal='1' />
+                  <column datatype='datetime' name='Closed Date' ordinal='2' />
+                  <column datatype='string' name='Agency' ordinal='3' />
+                  <column datatype='string' name='Agency Name' ordinal='4' />
+                  <column datatype='string' name='Complaint Type' ordinal='5' />
+                  <column datatype='string' name='Descriptor' ordinal='6' />
+                  <column datatype='string' name='Location Type' ordinal='7' />
+                  <column datatype='integer' name='Incident Zip' ordinal='8' />
+                  <column datatype='string' name='Incident Address' ordinal='9' />
+                  <column datatype='string' name='Street Name' ordinal='10' />
+                  <column datatype='string' name='Cross Street 1' ordinal='11' />
+                  <column datatype='string' name='Cross Street 2' ordinal='12' />
+                  <column datatype='string' name='Intersection Street 1' ordinal='13' />
+                  <column datatype='string' name='Intersection Street 2' ordinal='14' />
+                  <column datatype='string' name='Address Type' ordinal='15' />
+                  <column datatype='string' name='City' ordinal='16' />
+                  <column datatype='string' name='Landmark' ordinal='17' />
+                  <column datatype='string' name='Facility Type' ordinal='18' />
+                  <column datatype='string' name='Status' ordinal='19' />
+                  <column datatype='datetime' name='Due Date' ordinal='20' />
+                  <column datatype='string' name='Resolution Description' ordinal='21' />
+                  <column datatype='datetime' name='Resolution Action Updated Date' ordinal='22' />
+                  <column datatype='string' name='Community Board' ordinal='23' />
+                  <column datatype='integer' name='BBL' ordinal='24' />
+                  <column datatype='string' name='Borough' ordinal='25' />
+                  <column datatype='integer' name='X Coordinate (State Plane)' ordinal='26' />
+                  <column datatype='integer' name='Y Coordinate (State Plane)' ordinal='27' />
+                  <column datatype='string' name='Open Data Channel Type' ordinal='28' />
+                  <column datatype='string' name='Park Facility Name' ordinal='29' />
+                  <column datatype='string' name='Park Borough' ordinal='30' />
+                  <column datatype='string' name='Vehicle Type' ordinal='31' />
+                  <column datatype='string' name='Taxi Company Borough' ordinal='32' />
+                  <column datatype='string' name='Taxi Pick Up Location' ordinal='33' />
+                  <column datatype='string' name='Bridge Highway Name' ordinal='34' />
+                  <column datatype='string' name='Bridge Highway Direction' ordinal='35' />
+                  <column datatype='string' name='Road Ramp' ordinal='36' />
+                  <column datatype='string' name='Bridge Highway Segment' ordinal='37' />
+                  <column datatype='real' name='Latitude' ordinal='38' />
+                  <column datatype='real' name='Longitude' ordinal='39' />
+                  <column datatype='string' name='Location' ordinal='40' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Agency'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Requests by Agency</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='311_Service_Requests_2020' name='federated.1e308qs1lgdnf313h96bk1hoibpx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e308qs1lgdnf313h96bk1hoibpx'>
+            <column datatype='string' name='[Agency Name]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='integer' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Agency]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='table' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Agency Name]' derivation='None' name='[none:Agency Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Agency]' derivation='None' name='[none:Agency:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d2e9e3</color>
+                <color>#b5e2d7</color>
+                <color>#99dbcb</color>
+                <color>#7fd4bf</color>
+                <color>#66cdb3</color>
+                <color>#4fc6a8</color>
+                <color>#39bf9d</color>
+                <color>#24b892</color>
+                <color>#11b188</color>
+                <color>#00aa7f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' />
+              <color column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' />
+              <text column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Agency:nk]' />
+              <text column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Agency Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BEB254E9-2E06-4D84-9BFA-2A6B47B4980A}' />
+    </worksheet>
+    <worksheet name='Borough'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Requests by Borough</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='311_Service_Requests_2020' name='federated.1e308qs1lgdnf313h96bk1hoibpx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e308qs1lgdnf313h96bk1hoibpx'>
+            <column caption='Borough1' datatype='string' name='[Borough]' role='dimension' type='nominal' />
+            <column caption='Complaint Type1' datatype='string' name='[Complaint Type]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='integer' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Created Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='table' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Borough]' derivation='None' name='[none:Borough:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Complaint Type]' derivation='None' name='[none:Complaint Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Created Date]' derivation='Year' name='[yr:Created Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Complaint Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Commercial&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Helicopter&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - House of Worship&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Park&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Residential&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Street/Sidewalk&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise - Vehicle&quot;' />
+              <groupfilter function='member' level='[none:Complaint Type:nk]' member='&quot;Noise Survey&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]'>
+            <groupfilter function='member' level='[yr:Created Date:ok]' member='2020' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Complaint Type:nk]</column>
+            <column>[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Borough:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Borough:nk]</rows>
+        <cols>[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]</cols>
+      </table>
+      <simple-id uuid='{07941C88-D462-405C-A84B-371E0A26407E}' />
+    </worksheet>
+    <worksheet name='YoY'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Requests YoY</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='311_Service_Requests_2020' name='federated.1e308qs1lgdnf313h96bk1hoibpx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e308qs1lgdnf313h96bk1hoibpx'>
+            <_.fcp.ObjectModelTableType.false...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='integer' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Created Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='311_Service_Requests_from_2010_to_Present.csv' datatype='table' name='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Created Date]' derivation='Month' name='[mn:Created Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Created Date]' derivation='Year' name='[yr:Created Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Created Date:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:Created Date:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:Created Date:ok]' member='2021' />
+              <groupfilter function='member' level='[yr:Created Date:ok]' member='2022' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]' />
+              <lod column='[federated.1e308qs1lgdnf313h96bk1hoibpx].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]</rows>
+        <cols>([federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok] / [federated.1e308qs1lgdnf313h96bk1hoibpx].[mn:Created Date:ok])</cols>
+      </table>
+      <simple-id uuid='{AA6E767C-D91B-476F-B323-EF9D9DC45651}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Borough'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Borough:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Borough:nk]</field>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Complaint Type:nk]</field>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{877DA2B1-0D86-4307-9220-4371A6F4B9C9}' />
+    </window>
+    <window class='worksheet' name='Agency'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[__tableau_internal_object_id__].[cnt:311_Service_Requests_from_2010_to_Present.csv_91C66DC5DBE54C59A486B4934F88A36F:qk]</field>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[none:Agency Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A9A1252A-9D9E-4343-A005-112D40127532}' />
+    </window>
+    <window class='worksheet' maximized='true' name='YoY'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[:Measure Names]</field>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[mn:Created Date:ok]</field>
+            <field>[federated.1e308qs1lgdnf313h96bk1hoibpx].[yr:Created Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FFBCFA57-39EA-4183-B703-21F1423000C7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Agency' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Borough' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='YoY' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
